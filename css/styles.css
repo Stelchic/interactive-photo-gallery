@@ -1,23 +1,23 @@
 * {
     box-sizing: border-box;
 }
+body {
+    background: rgba(51,51,51,1);
+}
 header {
-    background: #8e2be8;
+    background: rgb(142,43,232);
     padding: 1rem 0;
 }
 input {
     display: block;
     padding: 1rem;
-    border: 1px solid gray;
+    border: 3px solid #333;
     border-radius: 5px;
     width: 50%;
     margin: 0 auto;
 }
-main {
-    background: gray;
-    padding: 1rem 0;
-}
 .gallery {
+    max-width: 1024px;
     width: 85%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
