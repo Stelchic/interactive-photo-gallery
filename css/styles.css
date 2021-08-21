@@ -9,7 +9,7 @@ input {
     width: 50%;
     margin: 1rem auto;
 }
-.grid {
+.gallery {
     width: 85%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
