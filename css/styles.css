@@ -1,13 +1,21 @@
 * {
     box-sizing: border-box;
 }
+header {
+    background: #8e2be8;
+    padding: 1rem 0;
+}
 input {
     display: block;
     padding: 1rem;
     border: 1px solid gray;
     border-radius: 5px;
     width: 50%;
-    margin: 1rem auto;
+    margin: 0 auto;
+}
+main {
+    background: gray;
+    padding: 1rem 0;
 }
 .gallery {
     width: 85%;
@@ -18,6 +26,13 @@ input {
     margin: 1rem auto;
 }
 img {
+    border: .2rem solid #8e2be8;
     width: 100%;
     height: 100%;
+}
+.photos {
+    display: list-item;
+}
+.photos::marker {
+    color: rgba(0, 0, 0, 0);
 }
